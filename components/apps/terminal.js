@@ -13,12 +13,12 @@ export class Terminal extends Component {
         this.commands_index = -1;
         this.child_directories = {
             root: ["books", "projects", "personal-documents", "skills", "languages", "PDPU", "interests"],
-            PDPU: ["Sem-6"],
-            books: ["Eric-Jorgenson_The-Almanack-of-Naval-Ravikant.pdf", "Elon Musk: How the Billionaire CEO of SpaceX.pdf", "The $100 Startup_CHRIS_GUILLEBEAU.pdf", "The_Magic_of_Thinking_Big.pdf"],
-            skills: ["Front-end development", "React.js", "jQuery", "Flutter", "Express.js", "SQL", "Firebase"],
-            projects: ["Arnav Singha-personal-portfolio", "synonyms-list-react", "economist.com-unlocked", "Improve-Codeforces", "flutter-banking-app", "Meditech-Healthcare", "CPU-Scheduling-APP-React-Native"],
-            interests: ["Software Engineering", "Deep Learning", "Computer Vision"],
-            languages: ["Javascript", "C++", "Java", "Dart"],
+            PDPU: ["MCA Sem-2"],
+            books: ["Mahabharat", "The Book of Five Rings Book by Miyamoto Musashi", "The Lord of the Rings by John Ronald Reuel Tolkien",],
+            skills: ["Front-end development", "Next.js", "React.js", "Node.js", "Express.js", "MongoDB", "SQL", "Firebase"],
+            projects: ["Game_Engine", "Unix_Portfolio", "Colour-Paletter", "oriJEEn", "MeetUP", "Discord-Clone", "TypoBlitz", "Car_rental"],
+            interests: ["Software Engineering", "Full-Stack Web Developer", "Front-End Web Developer"],
+            languages: ["Typescript","Javascript", "Java"],
         };
         this.state = {
             terminal: [],
